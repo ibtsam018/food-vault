@@ -274,7 +274,6 @@ whitenoise==5.3.0
 widgetsnbextension==3.5.1
 win32-setctime==1.0.3
 wrapt==1.12.1
-wrapt-timeout-decorator==1.4.0
 yarl==1.6.3
 zipp==3.4.0
 zope.interface==5.1.0
