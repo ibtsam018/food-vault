@@ -194,7 +194,6 @@ python-dateutil==2.8.1
 python-docx==0.8.10
 python-dotenv==0.14.0
 python-magic==0.4.24
-python-magic-bin==0.4.14
 python-socks==1.2.2
 python3-openid==3.2.0
 PyTweening==1.0.3
