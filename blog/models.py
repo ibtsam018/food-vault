@@ -2,13 +2,6 @@ from django.db import models
 from account.models import Account
 
 
-class Category(models.Model):
-    name = models.CharField(max_length=100)
-
-    def __str__(self):
-        return self.name
-
-
 class Post(models.Model):
 
     class PostObjects(models.Manager):
@@ -20,7 +13,6 @@ class Post(models.Model):
         ('draft', 'Draft')
     )
 
-    category = models.ForeignKey(Category, on_delete=models.PROTECT, default=1)
     title = models.CharField(max_length=100)
     excerpt = models.TextField(null=True)
     content = models.TextField()
